@@ -1,0 +1,52 @@
+import i18n from "i18next";
+import { initReactI18next } from "react-i18next";
+
+const resources = {
+  en: {
+    translation: {
+      nav: { home: "Home", about: "About me", projects: "Projects", services: "Services", contact: "Contact", talk: "Let's talk", language: "Français", open: "Open menu", close: "Close menu" },
+      hero: { title1: "I BUILD", title2: "DIGITAL", title3: "EXPERIENCES", subtitle: "Full-Stack & Mobile Developer", work: "Explore my work", talk: "Let's talk", technologies: "Technologies I use" },
+      about: { eyebrow: "About me", title: "ABOUT", accent: "ME", text1: "I am Mohamed Cissé, a passionate Full-Stack and Mobile Developer with a strong background in creating innovative digital experiences. With a keen eye for detail and a commitment to delivering high-quality solutions, I thrive on turning ideas into reality through code.", text2: "I enjoy working across the whole product, understanding the problem, designing the experience, building the technology and turning an idea into something people can actually use. My goal is to create digital products that are useful, reliable and built to grow with the people and businesses behind them.", cv: "Download CV" },
+      stats: { aria: "Key statistics", experience: "Years Experience", contributions: "Projects Contributions", dedication: "Dedication", feedback: "Positive Feedbacks" },
+      skills: { eyebrow: "What I do", title: "MY", accent: "SKILLS", description: "The technologies I use to turn ideas into reliable digital experiences." },
+      projects: { eyebrow: "Selected work", title: "MY", accent: "PROJECTS", description: "A selection of projects I've worked on.", kajai: "A modern marketplace app with live shopping.", teacheez: "A school management platform for students and teachers.", waalo: "An Africa-Europe food logistics platform.", caseStudy: "View case study", all: "View all projects" },
+      services: { eyebrow: "My expertise", title: "MY", accent: "SERVICES", description: "What I can do for you.", web: "Web Development", webText: "Modern, fast and scalable web applications.", mobile: "Mobile Applications", mobileText: "iOS and Android apps with React Native or Flutter.", api: "API & Backend", apiText: "Robust and secure APIs and server architecture.", ui: "UI Integration", uiText: "Pixel-perfect integration with modern UIs." },
+      contact: { eyebrow: "Let's connect", title: "HAVE A GOOD IDEA?", accent: "LET'S BUILD IT.", description: "Let's talk about your project, idea or opportunity.", name: "Your name", email: "Your email", message: "Your message", send: "Send message", location: "Dakar, Senegal" },
+    },
+  },
+  fr: {
+    translation: {
+      nav: { home: "Accueil", about: "À propos", projects: "Projets", services: "Services", contact: "Contact", talk: "Parlons-en", language: "English", open: "Ouvrir le menu", close: "Fermer le menu" },
+      hero: { title1: "JE CRÉE DES", title2: "EXPÉRIENCES", title3: "NUMÉRIQUES", subtitle: "Développeur Full-Stack & Mobile", work: "Découvrir mes projets", talk: "Parlons-en", technologies: "Technologies utilisées" },
+      about: { eyebrow: "À propos de moi", title: "À PROPOS DE", accent: "MOI", text1: "Je suis Mohamed Cissé, un développeur Full-Stack et Mobile passionné, spécialisé dans la création d'expériences numériques innovantes. Attentif aux détails et engagé dans la qualité, je transforme les idées en solutions concrètes grâce au code.", text2: "J'aime travailler sur l'ensemble d'un produit : comprendre le problème, concevoir l'expérience, construire la technologie et transformer une idée en quelque chose d'utile. Mon objectif est de créer des produits numériques fiables, utiles et capables d'évoluer avec les personnes et les entreprises qui les portent.", cv: "Télécharger mon CV" },
+      stats: { aria: "Statistiques clés", experience: "Années d'expérience", contributions: "Contributions projets", dedication: "Engagement", feedback: "Retours positifs" },
+      skills: { eyebrow: "Mon savoir-faire", title: "MES", accent: "COMPÉTENCES", description: "Les technologies que j'utilise pour transformer les idées en expériences numériques fiables." },
+      projects: { eyebrow: "Projets sélectionnés", title: "MES", accent: "PROJETS", description: "Une sélection des projets sur lesquels j'ai travaillé.", kajai: "Une application marketplace moderne avec du live shopping.", teacheez: "Une plateforme de gestion scolaire pour les élèves et les enseignants.", waalo: "Une plateforme logistique agroalimentaire entre l'Afrique et l'Europe.", caseStudy: "Voir l'étude de cas", all: "Voir tous les projets" },
+      services: { eyebrow: "Mon expertise", title: "MES", accent: "SERVICES", description: "Ce que je peux faire pour vous.", web: "Développement Web", webText: "Des applications web modernes, rapides et évolutives.", mobile: "Applications mobiles", mobileText: "Des applications iOS et Android avec React Native ou Flutter.", api: "API & Backend", apiText: "Des API et architectures serveur robustes et sécurisées.", ui: "Intégration UI", uiText: "Une intégration au pixel près avec des interfaces modernes." },
+      contact: { eyebrow: "Restons en contact", title: "UNE BONNE IDÉE ?", accent: "CONSTRUISONS-LA.", description: "Parlons de votre projet, de votre idée ou de votre opportunité.", name: "Votre nom", email: "Votre email", message: "Votre message", send: "Envoyer le message", location: "Dakar, Sénégal" },
+    },
+  },
+  es: {
+    translation: {
+      nav: { home: "Inicio", about: "Sobre mí", projects: "Proyectos", services: "Servicios", contact: "Contacto", talk: "Hablemos", language: "Español", open: "Abrir el menú", close: "Cerrar el menú" },
+      hero: { title1: "CREO", title2: "EXPERIENCIAS", title3: "DIGITALES", subtitle: "Desarrollador Full-Stack y Mobile", work: "Descubre mis proyectos", talk: "Hablemos", technologies: "Tecnologías que utilizo" },
+      about: { eyebrow: "Sobre mí", title: "SOBRE", accent: "MÍ", text1: "Soy Mohamed Cissé, un desarrollador Full-Stack y Mobile apasionado, especializado en crear experiencias digitales innovadoras. Con gran atención al detalle y compromiso con la calidad, transformo ideas en soluciones concretas mediante el código.", text2: "Me gusta trabajar en todo el producto: comprender el problema, diseñar la experiencia, construir la tecnología y convertir una idea en algo útil. Mi objetivo es crear productos digitales fiables, útiles y preparados para crecer junto a las personas y empresas que los impulsan.", cv: "Descargar mi CV" },
+      stats: { aria: "Estadísticas clave", experience: "Años de experiencia", contributions: "Contribuciones en proyectos", dedication: "Dedicación", feedback: "Comentarios positivos" },
+      skills: { eyebrow: "Lo que hago", title: "MIS", accent: "HABILIDADES", description: "Las tecnologías que utilizo para convertir ideas en experiencias digitales fiables." },
+      projects: { eyebrow: "Proyectos seleccionados", title: "MIS", accent: "PROYECTOS", description: "Una selección de los proyectos en los que he trabajado.", kajai: "Una aplicación marketplace moderna con compras en directo.", teacheez: "Una plataforma de gestión escolar para estudiantes y profesores.", waalo: "Una plataforma logística de alimentos entre África y Europa.", caseStudy: "Ver el caso de estudio", all: "Ver todos los proyectos" },
+      services: { eyebrow: "Mi experiencia", title: "MIS", accent: "SERVICIOS", description: "Lo que puedo hacer por ti.", web: "Desarrollo Web", webText: "Aplicaciones web modernas, rápidas y escalables.", mobile: "Aplicaciones móviles", mobileText: "Aplicaciones para iOS y Android con React Native o Flutter.", api: "API y Backend", apiText: "APIs y arquitecturas de servidor robustas y seguras.", ui: "Integración UI", uiText: "Integración precisa con interfaces modernas." },
+      contact: { eyebrow: "Hablemos", title: "¿TIENES UNA BUENA IDEA?", accent: "CONSTRUYÁMOSLA.", description: "Hablemos de tu proyecto, idea u oportunidad.", name: "Tu nombre", email: "Tu correo electrónico", message: "Tu mensaje", send: "Enviar mensaje", location: "Dakar, Senegal" },
+    },
+  },
+} as const;
+
+if (!i18n.isInitialized) {
+  i18n.use(initReactI18next).init({
+    resources,
+    lng: "fr",
+    fallbackLng: "en",
+    interpolation: { escapeValue: false },
+  });
+}
+
+export default i18n;

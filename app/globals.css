@@ -5,17 +5,22 @@
   --foreground: #171717;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-poppins: var(--font-poppins);
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #ffffff;
+    --foreground: #171717;
   }
 }
 
@@ -23,4 +28,114 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+@keyframes technology-marquee {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.technology-marquee {
+  animation: technology-marquee 32s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .technology-marquee {
+    animation-play-state: paused;
+  }
+}
+
+/* =========================
+   REVEAL ANIMATIONS
+   =========================*/
+.reveal {
+  opacity: 0;
+
+  transition:
+    opacity var(--reveal-duration) ease,
+    transform var(--reveal-duration) ease;
+
+  transition-delay: var(--reveal-delay);
+}
+
+/* =========================
+   FADE
+   ========================= */
+
+.reveal-fade {
+  transform: none;
+}
+
+/* =========================
+   FADE UP
+   ========================= */
+
+.reveal-fade-up {
+  transform: translateY(var(--reveal-distance));
+}
+
+.reveal-fade-up[data-direction="up"] {
+  transform: translateY(calc(var(--reveal-distance) * -1));
+}
+
+/* =========================
+   FADE DOWN
+   ========================= */
+
+.reveal-fade-down {
+  transform: translateY(calc(var(--reveal-distance) * -1));
+}
+
+.reveal-fade-down[data-direction="up"] {
+  transform: translateY(var(--reveal-distance));
+}
+
+/* =========================
+   FADE LEFT
+   ========================= */
+
+.reveal-fade-left {
+  transform: translateX(var(--reveal-distance));
+}
+
+.reveal-fade-left[data-direction="up"] {
+  transform: translateX(calc(var(--reveal-distance) * -1));
+}
+
+/* =========================
+   FADE RIGHT
+   ========================= */
+
+.reveal-fade-right {
+  transform: translateX(calc(var(--reveal-distance) * -1));
+}
+
+.reveal-fade-right[data-direction="up"] {
+  transform: translateX(var(--reveal-distance));
+}
+
+/* =========================
+   ZOOM
+   ========================= */
+
+.reveal-zoom {
+  transform: scale(0.85);
+}
+
+.reveal-zoom[data-direction="up"] {
+  transform: scale(1.15);
+}
+
+/* =========================
+   ÉTAT VISIBLE
+   ========================= */
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: translate(0) scale(1);
 }
