@@ -89,7 +89,7 @@ export default function Header() {
             : "bg-transparent text-black"
         }`}
       >
-        <div className="mx-auto flex h-20 max-w-8xl items-center justify-between px-6 md:px-10 lg:px-20">
+        <div className="mx-auto flex h-20 max-w-8xl items-center justify-between px-4 sm:px-6 md:px-10 lg:px-20">
           {/* LOGO */}
           <Link
             href="/"
@@ -101,7 +101,7 @@ export default function Header() {
               alt="Logo"
               width={70}
               height={70}
-              className={`h-auto w-14 md:w-17.5 lg:w-50`}
+              className="h-auto w-40 md:w-50"
             />
           </Link>
 
@@ -220,7 +220,7 @@ export default function Header() {
 
           {/* MENU */}
           <Reveal animation="fade-right">
-            <aside className="relative h-screen w-[70%] max-w-sm bg-white px-8 py-8 text-black">
+            <aside className="relative h-screen w-[min(82%,20rem)] max-w-sm bg-white px-6 py-8 text-black sm:px-8">
               {/* MENU HEADER */}
               <div className="flex items-center justify-between">
                 <Link

@@ -1,4 +1,4 @@
- "use client";
+"use client";
 
 import { Mail, MapPin, Send } from "lucide-react";
 import Reveal from "../shared/Reveal";
@@ -29,11 +29,11 @@ export default function ContactSection() {
 
           <div className="mt-8 space-y-4 text-sm font-semibold text-gray-800 sm:text-base">
             <a
-              href="mailto:hello@techyouverymuch.dev"
-              className="flex items-center gap-3 transition-colors hover:text-[#0368FD]"
+              href="mailto:momotarosamaxx@gmail.com"
+              className="flex items-center gap-3 break-all transition-colors hover:text-[#0368FD] sm:break-normal"
             >
               <Mail size={20} className="text-[#0368FD]" />
-              hello@techyouverymuch.dev
+              momotarosamaxx@gmail.com
             </a>
             <p className="flex items-center gap-3">
               <MapPin size={20} className="text-[#0368FD]" />
@@ -44,7 +44,7 @@ export default function ContactSection() {
 
         <Reveal animation="fade-left" delay={150}>
           <form
-            action="mailto:hello@techyouverymuch.dev"
+            action="mailto:momotarosamaxx@gmail.com"
             method="post"
             encType="text/plain"
             className="rounded-2xl border border-gray-100 bg-white/90 p-6 shadow-xl shadow-blue-900/5 backdrop-blur-sm sm:p-8"
@@ -75,7 +75,11 @@ export default function ContactSection() {
                 className="w-full resize-none rounded-xl border border-gray-200 px-4 py-3 text-sm text-black outline-none transition-colors placeholder:text-gray-400 focus:border-[#0368FD] focus:ring-2 focus:ring-blue-100"
               />
             </div>
-            <Button type="submit" className="mt-5" rightIcon={<Send size={16} />}>
+            <Button
+              type="submit"
+              className="mt-5"
+              rightIcon={<Send size={16} />}
+            >
               {t("contact.send")}
             </Button>
           </form>
