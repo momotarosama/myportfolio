@@ -1,0 +1,780 @@
+[
+  {
+    "id": "afri-school",
+    "title": "AfriSchool",
+    "featured": false,
+    "translations": {
+      "en": {
+        "title": "AfriSchool",
+        "shortDescription": "A school management platform bringing academic and community life together.",
+        "description": "AfriSchool is a school management platform designed to centralize academic management, timetables, grades, school life and a social network for the school community.",
+        "category": "Web platform",
+        "year": "",
+        "role": "Frontend Developer / UX/UI Designer",
+        "status": "development",
+        "technologies": ["React", "Tailwind CSS"],
+        "challenge": "The project brings together a wide range of school-related features, from academic management to social interaction, while keeping the experience coherent and easy to use.",
+        "solution": "A unified platform was designed around the different needs of students, teachers and school administrators. Fictional data was used to develop and validate the frontend while backend decisions were still being defined.",
+        "contribution": "Frontend development and UX/UI design of the platform and interfaces for the school community.",
+        "features": [
+          "School management",
+          "Timetable management",
+          "Grade management",
+          "School life management",
+          "School social network"
+        ],
+        "result": "The project is still under development. The frontend and UX/UI work can currently be showcased through screenshots."
+      },
+      "fr": {
+        "title": "AfriSchool",
+        "shortDescription": "Une plateforme de gestion scolaire qui rassemble les activités académiques et la vie de la communauté.",
+        "description": "AfriSchool est une plateforme de gestion scolaire qui centralise la gestion académique, les emplois du temps, les notes, la vie scolaire et un réseau social dédié à la communauté de l'établissement.",
+        "category": "Plateforme web",
+        "year": "",
+        "role": "Développeur Frontend / Designer UX/UI",
+        "status": "development",
+        "technologies": ["React", "Tailwind CSS"],
+        "challenge": "Le projet rassemble de nombreuses fonctionnalités scolaires, de la gestion académique aux interactions sociales, tout en préservant une expérience cohérente et simple à utiliser.",
+        "solution": "Une plateforme unifiée a été conçue autour des besoins des élèves, des enseignants et de l'administration. Des données fictives ont permis de développer et valider le frontend pendant la définition du backend.",
+        "contribution": "Développement frontend et conception UX/UI de la plateforme et des interfaces de la communauté scolaire.",
+        "features": [
+          "Gestion scolaire",
+          "Gestion des emplois du temps",
+          "Gestion des notes",
+          "Gestion de la vie scolaire",
+          "Réseau social de l'établissement"
+        ],
+        "result": "Le projet est toujours en développement. Le travail frontend et UX/UI peut être présenté à l'aide de captures d'écran."
+      },
+      "es": {
+        "title": "AfriSchool",
+        "shortDescription": "Una plataforma de gestión escolar que reúne la actividad académica y la vida de la comunidad.",
+        "description": "AfriSchool es una plataforma de gestión escolar que centraliza la gestión académica, los horarios, las calificaciones, la vida escolar y una red social para la comunidad educativa.",
+        "category": "Plataforma web",
+        "year": "",
+        "role": "Desarrollador Frontend / Diseñador UX/UI",
+        "status": "development",
+        "technologies": ["React", "Tailwind CSS"],
+        "challenge": "El proyecto reúne numerosas funciones escolares, desde la gestión académica hasta las interacciones sociales, manteniendo una experiencia coherente y fácil de usar.",
+        "solution": "Se diseñó una plataforma unificada para las necesidades de estudiantes, docentes y administración. Se utilizaron datos ficticios para desarrollar y validar el frontend mientras se definía el backend.",
+        "contribution": "Desarrollo frontend y diseño UX/UI de la plataforma y las interfaces para la comunidad escolar.",
+        "features": [
+          "Gestión escolar",
+          "Gestión de horarios",
+          "Gestión de calificaciones",
+          "Gestión de la vida escolar",
+          "Red social escolar"
+        ],
+        "result": "El proyecto sigue en desarrollo. El trabajo de frontend y UX/UI se puede presentar mediante capturas de pantalla."
+      }
+    },
+    "images": {
+      "hero": "/images/projects/screens/afrischool/Dashboard.png",
+      "screenshots": [
+        "/images/projects/screens/afrischool/Classchatroomchat.png",
+        "/images/projects/screens/afrischool/classDetails.png",
+        "/images/projects/screens/afrischool/classesManagement.png",
+        "/images/projects/screens/afrischool/schedulemanagement.png"
+      ]
+    },
+    "links": { "live": null, "github": null, "figma": null }
+  },
+  {
+    "id": "casdak-voyage",
+    "title": "Casdak Voyage",
+    "featured": true,
+    "translations": {
+      "en": {
+        "title": "Casdak Voyage",
+        "shortDescription": "An interactive travel agency website with reservation requests for tickets and organized trips.",
+        "description": "Casdak Voyage is an interactive website for a travel agency, presenting its services and allowing visitors to submit reservation requests for tickets and organized trips.",
+        "category": "Web platform",
+        "year": "",
+        "role": "Full-Stack Developer / UX/UI Designer",
+        "status": "private",
+        "technologies": ["Next.js", "React", "TypeScript", "PostgreSQL"],
+        "challenge": "The project required turning the agency's services and reservation process into a clear digital experience, while covering the frontend, backend, database and user experience.",
+        "solution": "An interactive website was built to present the agency's services and let visitors request reservations for tickets and organized trips.",
+        "contribution": "Full-stack development and UX/UI design, including the frontend, backend and database structure.",
+        "features": [
+          "Travel agency service presentation",
+          "Ticket reservation requests",
+          "Organized trip reservation requests",
+          "Interactive user experience"
+        ],
+        "result": "The project is technically ready for deployment but has not been made public. It is awaiting approval from the company."
+      },
+      "fr": {
+        "title": "Casdak Voyage",
+        "shortDescription": "Un site interactif d'agence de voyages avec des demandes de réservation de billets et de circuits organisés.",
+        "description": "Casdak Voyage est un site interactif pour une agence de voyages. Il présente ses services et permet aux visiteurs d'envoyer des demandes de réservation de billets et de circuits organisés.",
+        "category": "Plateforme web",
+        "year": "",
+        "role": "Développeur Full-Stack / Designer UX/UI",
+        "status": "private",
+        "technologies": ["Next.js", "React", "TypeScript", "PostgreSQL"],
+        "challenge": "Il fallait transformer les services de l'agence et son processus de réservation en une expérience numérique claire, en prenant en charge le frontend, le backend, la base de données et l'expérience utilisateur.",
+        "solution": "Un site interactif a été créé pour présenter les services de l'agence et permettre aux visiteurs de demander des réservations de billets et de circuits organisés.",
+        "contribution": "Développement full-stack et conception UX/UI, comprenant le frontend, le backend et la structure de la base de données.",
+        "features": [
+          "Présentation des services de l'agence",
+          "Demandes de réservation de billets",
+          "Demandes de réservation de circuits organisés",
+          "Expérience utilisateur interactive"
+        ],
+        "result": "Le projet est techniquement prêt à être déployé, mais n'a pas été rendu public. Il est en attente d'approbation par l'entreprise."
+      },
+      "es": {
+        "title": "Casdak Voyage",
+        "shortDescription": "Un sitio interactivo de agencia de viajes con solicitudes de reserva de billetes y viajes organizados.",
+        "description": "Casdak Voyage es un sitio interactivo para una agencia de viajes que presenta sus servicios y permite solicitar reservas de billetes y viajes organizados.",
+        "category": "Plataforma web",
+        "year": "",
+        "role": "Desarrollador Full-Stack / Diseñador UX/UI",
+        "status": "private",
+        "technologies": ["Next.js", "React", "TypeScript", "PostgreSQL"],
+        "challenge": "El proyecto debía convertir los servicios de la agencia y el proceso de reserva en una experiencia digital clara, cubriendo frontend, backend, base de datos y experiencia de usuario.",
+        "solution": "Se creó un sitio interactivo para presentar los servicios de la agencia y permitir solicitudes de reserva de billetes y viajes organizados.",
+        "contribution": "Desarrollo full-stack y diseño UX/UI, incluidos el frontend, el backend y la estructura de la base de datos.",
+        "features": [
+          "Presentación de servicios de la agencia",
+          "Solicitudes de reserva de billetes",
+          "Solicitudes de viajes organizados",
+          "Experiencia de usuario interactiva"
+        ],
+        "result": "El proyecto está técnicamente listo para su despliegue, pero aún no es público. Está pendiente de aprobación por parte de la empresa."
+      }
+    },
+    "images": {
+      "hero": "/images/projects/screens/casdak/homepage.png",
+      "screenshots": [
+        "/images/projects/screens/casdak/dashboard.png",
+        "/images/projects/screens/casdak/dashboard2.png",
+        "/images/projects/screens/casdak/dashboard3.png",
+        "/images/projects/screens/casdak/dashboard4.png",
+        "/images/projects/screens/casdak/voyagespresentation.png"
+      ]
+    },
+    "links": { "live": null, "github": null, "figma": null }
+  },
+  {
+    "id": "e-menu",
+    "title": "E-Menu",
+    "featured": false,
+    "translations": {
+      "en": {
+        "title": "E-Menu",
+        "shortDescription": "A restaurant management platform for reservations, tables, orders, customers and online ordering.",
+        "description": "E-Menu is a restaurant management platform designed to centralize reservations, tables, orders, receipts, customers and online ordering. A mobile application was also planned.",
+        "category": "Web platform",
+        "year": "",
+        "role": "Full-Stack Developer / UX/UI Designer",
+        "status": "archived",
+        "technologies": ["React", "TypeScript", "Tailwind CSS"],
+        "challenge": "The different operational aspects of restaurant management needed to be brought together in one platform while keeping the interface simple and practical for staff.",
+        "solution": "A centralized interface was designed and developed to cover restaurant operations, from reservations and table management to orders, customers and online ordering.",
+        "contribution": "I completed the frontend and UX/UI design, with a stronger focus on frontend development. Backend work was handled separately and did not progress far enough to complete the product.",
+        "features": [
+          "Reservation management",
+          "Table management",
+          "Order management",
+          "Receipt management",
+          "Customer management",
+          "Online ordering"
+        ],
+        "result": "The project was discontinued. The frontend and UX/UI work were completed and operational, but the backend was not completed and the product could not launch."
+      },
+      "fr": {
+        "title": "E-Menu",
+        "shortDescription": "Une plateforme de gestion de restaurant pour les réservations, tables, commandes, clients et commandes en ligne.",
+        "description": "E-Menu est une plateforme de gestion de restaurant qui centralise les réservations, les tables, les commandes, les reçus, les clients et les commandes en ligne. Une application mobile était également prévue.",
+        "category": "Plateforme web",
+        "year": "",
+        "role": "Développeur Full-Stack / Designer UX/UI",
+        "status": "archived",
+        "technologies": ["React", "TypeScript", "Tailwind CSS"],
+        "challenge": "Les différents aspects opérationnels de la gestion d'un restaurant devaient être réunis dans une seule plateforme, avec une interface simple et pratique pour le personnel.",
+        "solution": "Une interface centralisée a été conçue et développée pour couvrir les opérations du restaurant, des réservations et des tables aux commandes, aux clients et à la commande en ligne.",
+        "contribution": "J'ai réalisé le frontend et la conception UX/UI, avec un accent particulier sur le frontend. Le backend, pris en charge séparément, n'a pas suffisamment avancé pour achever le produit.",
+        "features": [
+          "Gestion des réservations",
+          "Gestion des tables",
+          "Gestion des commandes",
+          "Gestion des reçus",
+          "Gestion des clients",
+          "Commandes en ligne"
+        ],
+        "result": "Le projet a été abandonné. Le frontend et le travail UX/UI étaient terminés et opérationnels, mais le backend inachevé n'a pas permis le lancement du produit."
+      },
+      "es": {
+        "title": "E-Menu",
+        "shortDescription": "Una plataforma de gestión de restaurantes para reservas, mesas, pedidos, clientes y pedidos en línea.",
+        "description": "E-Menu es una plataforma de gestión de restaurantes que centraliza reservas, mesas, pedidos, recibos, clientes y pedidos en línea. También se había previsto una aplicación móvil.",
+        "category": "Plataforma web",
+        "year": "",
+        "role": "Desarrollador Full-Stack / Diseñador UX/UI",
+        "status": "archived",
+        "technologies": ["React", "TypeScript", "Tailwind CSS"],
+        "challenge": "Había que reunir las distintas operaciones del restaurante en una sola plataforma, con una interfaz sencilla y práctica para el personal.",
+        "solution": "Se diseñó y desarrolló una interfaz centralizada para las operaciones del restaurante, desde reservas y gestión de mesas hasta pedidos, clientes y pedidos en línea.",
+        "contribution": "Completé el frontend y el diseño UX/UI, con mayor enfoque en el frontend. El backend se gestionó por separado y no avanzó lo suficiente para completar el producto.",
+        "features": [
+          "Gestión de reservas",
+          "Gestión de mesas",
+          "Gestión de pedidos",
+          "Gestión de recibos",
+          "Gestión de clientes",
+          "Pedidos en línea"
+        ],
+        "result": "El proyecto se discontinuó. El frontend y el trabajo UX/UI quedaron operativos, pero el backend no se completó y el producto no pudo lanzarse."
+      }
+    },
+    "images": {
+      "hero": "/images/projects/screens/emenu/Admin%20-%20Homepage.png",
+      "screenshots": [
+        "/images/projects/screens/emenu/Admin%20-%20History.png",
+        "/images/projects/screens/emenu/Admin%20-%20Menu-1.png",
+        "/images/projects/screens/emenu/Admin%20-%20Menu.png",
+        "/images/projects/screens/emenu/Admin%20-%20Tables.png",
+        "/images/projects/screens/emenu/Admin%20-%20createTable.png"
+      ]
+    },
+    "links": { "live": null, "github": null, "figma": null }
+  },
+  {
+    "id": "geca",
+    "title": "GECA",
+    "featured": false,
+    "translations": {
+      "en": {
+        "title": "GECA",
+        "shortDescription": "A UX/UI concept for digitizing administrative correspondence and document workflows.",
+        "description": "GECA (Gestion Électronique du Courrier Administratif) is a concept for digitizing and streamlining administrative correspondence, designed with public administration in mind, particularly in Senegal.",
+        "category": "UX/UI design",
+        "year": "",
+        "role": "UX/UI Designer",
+        "status": "prototype",
+        "technologies": ["Figma", "UX/UI Design"],
+        "challenge": "Administrative correspondence can involve manual steps, physical document transfers and delays between departments, making processes slower and harder to track.",
+        "solution": "The concept proposes a centralized digital workflow to register, transfer, track and process official documents while reducing dependence on manual processes.",
+        "contribution": "UX/UI design of the concept and interfaces. The application itself was not developed.",
+        "features": [
+          "Administrative mail management",
+          "Digital document workflow",
+          "Centralized correspondence",
+          "Document tracking",
+          "Administrative process management"
+        ],
+        "result": "The project was not developed into a finished application. The UX/UI design is in progress, with the original idea of further developing the concept and potentially presenting it to the Senegalese administration."
+      },
+      "fr": {
+        "title": "GECA",
+        "shortDescription": "Un concept UX/UI pour numériser le courrier administratif et les circuits de traitement des documents.",
+        "description": "GECA (Gestion Électronique du Courrier Administratif) est un concept visant à numériser et simplifier la gestion du courrier administratif, pensé pour les administrations publiques, notamment sénégalaises.",
+        "category": "Conception UX/UI",
+        "year": "",
+        "role": "Designer UX/UI",
+        "status": "prototype",
+        "technologies": ["Figma", "Conception UX/UI"],
+        "challenge": "Le courrier administratif implique parfois des étapes manuelles, des transferts physiques de documents et des délais entre services, ce qui ralentit les processus et complique leur suivi.",
+        "solution": "Le concept propose un circuit numérique centralisé pour enregistrer, transférer, suivre et traiter les documents officiels, en réduisant la dépendance aux processus manuels.",
+        "contribution": "Conception UX/UI du concept et des interfaces. L'application n'a pas été développée.",
+        "features": [
+          "Gestion du courrier administratif",
+          "Circuit numérique des documents",
+          "Centralisation du courrier",
+          "Suivi des documents",
+          "Gestion des processus administratifs"
+        ],
+        "result": "Le projet n'a pas abouti à une application terminée. La conception UX/UI est en cours, avec l'idée initiale de développer davantage le concept et éventuellement de le présenter à l'administration sénégalaise."
+      },
+      "es": {
+        "title": "GECA",
+        "shortDescription": "Un concepto UX/UI para digitalizar la correspondencia administrativa y los flujos de documentos.",
+        "description": "GECA (Gestión Electrónica del Correo Administrativo) es un concepto para digitalizar y agilizar la correspondencia administrativa, pensado para la administración pública, especialmente la senegalesa.",
+        "category": "Diseño UX/UI",
+        "year": "",
+        "role": "Diseñador UX/UI",
+        "status": "prototype",
+        "technologies": ["Figma", "Diseño UX/UI"],
+        "challenge": "La correspondencia administrativa puede implicar pasos manuales, transferencias físicas de documentos y demoras entre departamentos, lo que dificulta y ralentiza su seguimiento.",
+        "solution": "El concepto propone un flujo digital centralizado para registrar, transferir, seguir y procesar documentos oficiales, reduciendo la dependencia de procesos manuales.",
+        "contribution": "Diseño UX/UI del concepto y de las interfaces. La aplicación no llegó a desarrollarse.",
+        "features": [
+          "Gestión del correo administrativo",
+          "Flujo digital de documentos",
+          "Correspondencia centralizada",
+          "Seguimiento de documentos",
+          "Gestión de procesos administrativos"
+        ],
+        "result": "El proyecto no se convirtió en una aplicación terminada. El diseño UX/UI sigue en curso, con la idea inicial de desarrollar más el concepto y posiblemente presentarlo a la administración senegalesa."
+      }
+    },
+    "images": {
+      "hero": "/images/projects/screens/geca/dashboard-global-admin.png",
+      "screenshots": [
+        "/images/projects/screens/geca/Login.png",
+        "/images/projects/screens/geca/dashboard-structure-admin.png",
+        "/images/projects/screens/geca/settings-global-admin.png"
+      ]
+    },
+    "links": { "live": null, "github": null, "figma": null }
+  },
+  {
+    "id": "kaijai",
+    "title": "KAIJAI",
+    "featured": false,
+    "translations": {
+      "en": {
+        "title": "KAIJAI",
+        "shortDescription": "A confidential marketplace concept combining social content, online selling and live commerce.",
+        "description": "KAIJAI is a marketplace concept planned as a mobile and web application, combining social content, online selling and live commerce in one experience.",
+        "category": "UX/UI design",
+        "year": "",
+        "role": "UX/UI Designer / Product Prototyper",
+        "status": "private",
+        "technologies": ["Figma", "UX/UI Prototyping"],
+        "challenge": "The challenge is to combine social content, peer-to-peer commerce and live selling in a coherent, simple experience for discovering, presenting and selling products.",
+        "solution": "The current work explores a marketplace experience where users can discover products, sell online and take part in live-selling sessions.",
+        "contribution": "UX/UI design and product prototyping. The project is confidential and remains at the prototype stage.",
+        "features": [
+          "Online marketplace",
+          "Product listings",
+          "Live selling",
+          "Social content",
+          "Mobile experience",
+          "Web experience"
+        ],
+        "result": "The project is currently in the UX/UI and prototyping phase. Development has not started."
+      },
+      "fr": {
+        "title": "KAIJAI",
+        "shortDescription": "Un concept confidentiel de marketplace associant contenu social, vente en ligne et commerce en direct.",
+        "description": "KAIJAI est un concept de marketplace prévu comme application mobile et web, qui réunit le contenu social, la vente en ligne et le commerce en direct dans une même expérience.",
+        "category": "Conception UX/UI",
+        "year": "",
+        "role": "Designer UX/UI / Prototypiste produit",
+        "status": "private",
+        "technologies": ["Figma", "Prototypage UX/UI"],
+        "challenge": "Le défi consiste à réunir le contenu social, le commerce entre particuliers et la vente en direct dans une expérience cohérente et simple pour découvrir, présenter et vendre des produits.",
+        "solution": "Le travail actuel explore une expérience de marketplace où les utilisateurs peuvent découvrir des produits, vendre en ligne et participer à des sessions de vente en direct.",
+        "contribution": "Conception UX/UI et prototypage produit. Le projet est confidentiel et reste au stade du prototype.",
+        "features": [
+          "Marketplace en ligne",
+          "Annonces de produits",
+          "Vente en direct",
+          "Contenu social",
+          "Expérience mobile",
+          "Expérience web"
+        ],
+        "result": "Le projet est actuellement en phase de conception UX/UI et de prototypage. Le développement n'a pas commencé."
+      },
+      "es": {
+        "title": "KAIJAI",
+        "shortDescription": "Un concepto confidencial de marketplace que combina contenido social, venta en línea y comercio en directo.",
+        "description": "KAIJAI es un concepto de marketplace previsto como aplicación móvil y web que combina contenido social, venta en línea y comercio en directo en una sola experiencia.",
+        "category": "Diseño UX/UI",
+        "year": "",
+        "role": "Diseñador UX/UI / Prototipador de producto",
+        "status": "private",
+        "technologies": ["Figma", "Prototipado UX/UI"],
+        "challenge": "El reto es combinar contenido social, comercio entre particulares y ventas en directo en una experiencia coherente y sencilla para descubrir, presentar y vender productos.",
+        "solution": "El trabajo actual explora una experiencia de marketplace donde los usuarios pueden descubrir productos, vender en línea y participar en sesiones de venta en directo.",
+        "contribution": "Diseño UX/UI y prototipado del producto. El proyecto es confidencial y sigue en fase de prototipo.",
+        "features": [
+          "Marketplace en línea",
+          "Publicaciones de productos",
+          "Ventas en directo",
+          "Contenido social",
+          "Experiencia móvil",
+          "Experiencia web"
+        ],
+        "result": "El proyecto se encuentra en la fase de diseño UX/UI y prototipado. El desarrollo aún no ha comenzado."
+      }
+    },
+    "images": {
+      "hero": "/images/projects/screens/kaijai/Home.png",
+      "screenshots": [
+        "/images/projects/screens/kaijai/Category.png",
+        "/images/projects/screens/kaijai/Discover-drops-comments.png",
+        "/images/projects/screens/kaijai/Discover-drops.png",
+        "/images/projects/screens/kaijai/Live.png"
+      ]
+    },
+    "links": { "live": null, "github": null, "figma": null }
+  },
+  {
+    "id": "kpago",
+    "title": "KPAGO",
+    "featured": true,
+    "translations": {
+      "en": {
+        "title": "KPAGO",
+        "shortDescription": "An e-commerce frontend for fresh African products and ready-to-eat and frozen foods.",
+        "description": "KPAGO is an e-commerce website focused on fresh products from Africa, as well as ready-to-eat and frozen food products. The project was developed during my time at Value Market.",
+        "category": "E-commerce",
+        "year": "",
+        "role": "Frontend Developer",
+        "status": "prototype",
+        "technologies": ["Next.js", "Tailwind CSS"],
+        "challenge": "The project required a complete online catalogue and shopping experience for fresh and prepared food products, at a time when backend infrastructure and a production environment were not yet available.",
+        "solution": "I developed a complete Next.js frontend experience, using fictional data to simulate the product catalogue and shopping journey.",
+        "contribution": "Frontend development and user interface implementation for the e-commerce platform.",
+        "features": [
+          "Product catalogue",
+          "E-commerce interface",
+          "Fresh food products",
+          "Ready-to-eat products",
+          "Frozen products"
+        ],
+        "result": "The frontend prototype is online, but the project has no production backend, server infrastructure or dedicated domain. It was not completed before the end of my contract."
+      },
+      "fr": {
+        "title": "KPAGO",
+        "shortDescription": "Un frontend e-commerce pour des produits frais africains et des plats prêts à consommer ou surgelés.",
+        "description": "KPAGO est un site e-commerce consacré à la vente de produits frais d'Afrique ainsi que de produits alimentaires prêts à consommer et surgelés. Le projet a été développé pendant mon expérience chez Value Market.",
+        "category": "E-commerce",
+        "year": "",
+        "role": "Développeur Frontend",
+        "status": "prototype",
+        "technologies": ["Next.js", "Tailwind CSS"],
+        "challenge": "Le projet nécessitait un catalogue et une expérience d'achat en ligne complets pour des produits frais et préparés, alors que l'infrastructure backend et l'environnement de production n'étaient pas encore disponibles.",
+        "solution": "J'ai développé une expérience frontend complète avec Next.js, en utilisant des données fictives pour simuler le catalogue et le parcours d'achat.",
+        "contribution": "Développement frontend et implémentation de l'interface utilisateur de la plateforme e-commerce.",
+        "features": [
+          "Catalogue de produits",
+          "Interface e-commerce",
+          "Produits alimentaires frais",
+          "Plats prêts à consommer",
+          "Produits surgelés"
+        ],
+        "result": "Le prototype frontend est en ligne, mais le projet ne dispose pas de backend de production, d'infrastructure serveur ni de domaine dédié. Il n'a pas été achevé avant la fin de mon contrat."
+      },
+      "es": {
+        "title": "KPAGO",
+        "shortDescription": "Un frontend de comercio electrónico para productos frescos africanos y alimentos preparados y congelados.",
+        "description": "KPAGO es un sitio de comercio electrónico centrado en productos frescos de África, así como alimentos preparados y congelados. El proyecto se desarrolló durante mi etapa en Value Market.",
+        "category": "Comercio electrónico",
+        "year": "",
+        "role": "Desarrollador Frontend",
+        "status": "prototype",
+        "technologies": ["Next.js", "Tailwind CSS"],
+        "challenge": "El proyecto requería un catálogo y una experiencia de compra en línea completos para productos frescos y preparados, cuando aún no existían la infraestructura backend ni el entorno de producción.",
+        "solution": "Desarrollé una experiencia frontend completa con Next.js y datos ficticios para simular el catálogo y el proceso de compra.",
+        "contribution": "Desarrollo frontend e implementación de la interfaz de usuario de la plataforma de comercio electrónico.",
+        "features": [
+          "Catálogo de productos",
+          "Interfaz de comercio electrónico",
+          "Productos frescos",
+          "Alimentos preparados",
+          "Productos congelados"
+        ],
+        "result": "El prototipo frontend está en línea, pero el proyecto no cuenta con backend de producción, infraestructura de servidor ni dominio propio. No se completó antes de finalizar mi contrato."
+      }
+    },
+    "images": {
+      "hero": "/images/projects/screens/kpago/homepage.png",
+      "screenshots": [
+        "/images/projects/screens/kpago/marketPage.png",
+        "/images/projects/screens/kpago/storySection.png",
+        "/images/projects/screens/kpago/storypage.png"
+      ]
+    },
+    "links": {
+      "live": "https://kpago-test.vercel.app/",
+      "github": null,
+      "figma": null
+    }
+  },
+  {
+    "id": "rouguy-wedding",
+    "title": "Rouguy Wedding",
+    "featured": true,
+    "translations": {
+      "en": {
+        "title": "Rouguy Wedding",
+        "shortDescription": "A wedding website presenting event details and an RSVP system connected to a custom backend.",
+        "description": "Rouguy Wedding is a wedding website that presents the event and provides guests with essential information, along with a backend-powered RSVP system.",
+        "category": "Website",
+        "year": "",
+        "role": "Full-Stack Developer / UX/UI Designer",
+        "status": "live",
+        "technologies": [
+          "Next.js",
+          "Tailwind CSS",
+          "Node.js",
+          "Express",
+          "TypeScript"
+        ],
+        "challenge": "The goal was to communicate the wedding details and provide guests with a simple, accessible way to confirm their attendance.",
+        "solution": "A responsive wedding website was created, combining event information with an RSVP system connected to a custom backend.",
+        "contribution": "UX/UI design and full frontend and backend development.",
+        "features": [
+          "Wedding event presentation",
+          "Responsive website",
+          "RSVP system",
+          "Guest response management",
+          "Custom backend"
+        ],
+        "result": "The website was completed and used as the digital presentation and RSVP platform for the wedding."
+      },
+      "fr": {
+        "title": "Rouguy Wedding",
+        "shortDescription": "Un site de mariage présentant l'événement et un système de RSVP relié à un backend personnalisé.",
+        "description": "Rouguy Wedding est un site de mariage qui présente l'événement et fournit aux invités les informations essentielles, avec un système de RSVP relié à un backend.",
+        "category": "Site web",
+        "year": "",
+        "role": "Développeur Full-Stack / Designer UX/UI",
+        "status": "live",
+        "technologies": [
+          "Next.js",
+          "Tailwind CSS",
+          "Node.js",
+          "Express",
+          "TypeScript"
+        ],
+        "challenge": "L'objectif était de communiquer les détails du mariage et de proposer aux invités un moyen simple et accessible de confirmer leur présence.",
+        "solution": "Un site de mariage responsive a été créé, associant la présentation de l'événement à un système RSVP relié à un backend personnalisé.",
+        "contribution": "Conception UX/UI et développement complet du frontend et du backend.",
+        "features": [
+          "Présentation de l'événement",
+          "Site responsive",
+          "Système RSVP",
+          "Gestion des réponses des invités",
+          "Backend personnalisé"
+        ],
+        "result": "Le site a été terminé et utilisé comme plateforme de présentation numérique et de RSVP pour le mariage."
+      },
+      "es": {
+        "title": "Rouguy Wedding",
+        "shortDescription": "Un sitio de boda con información del evento y un sistema de confirmación conectado a un backend personalizado.",
+        "description": "Rouguy Wedding es un sitio de boda que presenta el evento y ofrece a los invitados la información esencial, junto con un sistema RSVP conectado a un backend.",
+        "category": "Sitio web",
+        "year": "",
+        "role": "Desarrollador Full-Stack / Diseñador UX/UI",
+        "status": "live",
+        "technologies": [
+          "Next.js",
+          "Tailwind CSS",
+          "Node.js",
+          "Express",
+          "TypeScript"
+        ],
+        "challenge": "El objetivo era comunicar los detalles de la boda y ofrecer a los invitados una forma sencilla y accesible de confirmar su asistencia.",
+        "solution": "Se creó un sitio web adaptable que combina la presentación del evento con un sistema RSVP conectado a un backend personalizado.",
+        "contribution": "Diseño UX/UI y desarrollo completo del frontend y el backend.",
+        "features": [
+          "Presentación de la boda",
+          "Sitio web adaptable",
+          "Sistema RSVP",
+          "Gestión de respuestas de invitados",
+          "Backend personalizado"
+        ],
+        "result": "El sitio se completó y se utilizó como plataforma digital de presentación y confirmación de asistencia para la boda."
+      }
+    },
+    "images": {
+      "hero": "/images/projects/screens/rouguywedding/hero.png",
+      "screenshots": [
+        "/images/projects/screens/rouguywedding/cta.png",
+        "/images/projects/screens/rouguywedding/fullGallery.png",
+        "/images/projects/screens/rouguywedding/gallery.png"
+      ]
+    },
+    "links": {
+      "live": "https://mr-mrs-kebe.vercel.app/",
+      "github": "https://github.com/momotarosama/wedding-rouguy",
+      "figma": null
+    }
+  },
+  {
+    "id": "traxpense",
+    "title": "Traxpense",
+    "featured": false,
+    "translations": {
+      "en": {
+        "title": "Traxpense",
+        "shortDescription": "A mobile application for tracking personal expenses and managing debts.",
+        "description": "Traxpense is a personal finance management application that helps users track expenses and manage money they owe to others or are owed by others.",
+        "category": "Mobile application",
+        "year": "",
+        "role": "Full-Stack Developer",
+        "status": "development",
+        "technologies": [
+          "React Native",
+          "TypeScript",
+          "Local database / storage"
+        ],
+        "challenge": "The goal was to provide a simple way to maintain an overview of personal expenses and debts without relying on multiple tools or manual tracking.",
+        "solution": "A mobile application was designed around expense tracking and debt management, allowing users to record and organize their financial information in one place.",
+        "contribution": "Mobile application development, focusing on the frontend, backend and application logic.",
+        "features": [
+          "Expense tracking",
+          "Debt tracking",
+          "Tracking money owed",
+          "Personal finance management"
+        ],
+        "result": "The application is not deployed as a production service. An APK is ready and is currently being used."
+      },
+      "fr": {
+        "title": "Traxpense",
+        "shortDescription": "Une application mobile pour suivre les dépenses personnelles et gérer les dettes.",
+        "description": "Traxpense est une application de gestion des finances personnelles qui aide à suivre les dépenses et à gérer l'argent que l'on doit ou que d'autres nous doivent.",
+        "category": "Application mobile",
+        "year": "",
+        "role": "Développeur Full-Stack",
+        "status": "development",
+        "technologies": [
+          "React Native",
+          "TypeScript",
+          "Base de données / stockage local"
+        ],
+        "challenge": "L'objectif était d'offrir un moyen simple de garder une vue d'ensemble des dépenses et des dettes sans dépendre de plusieurs outils ni d'un suivi manuel.",
+        "solution": "Une application mobile centrée sur le suivi des dépenses et la gestion des dettes permet d'enregistrer et d'organiser les informations financières au même endroit.",
+        "contribution": "Développement de l'application mobile, avec un accent sur le frontend, le backend et la logique applicative.",
+        "features": [
+          "Suivi des dépenses",
+          "Suivi des dettes",
+          "Suivi de l'argent prêté ou dû",
+          "Gestion des finances personnelles"
+        ],
+        "result": "L'application n'est pas déployée comme service de production. Un APK est prêt et actuellement utilisé."
+      },
+      "es": {
+        "title": "Traxpense",
+        "shortDescription": "Una aplicación móvil para controlar gastos personales y gestionar deudas.",
+        "description": "Traxpense es una aplicación de gestión financiera personal que ayuda a controlar los gastos y el dinero que se debe o que otros deben al usuario.",
+        "category": "Aplicación móvil",
+        "year": "",
+        "role": "Desarrollador Full-Stack",
+        "status": "development",
+        "technologies": [
+          "React Native",
+          "TypeScript",
+          "Base de datos / almacenamiento local"
+        ],
+        "challenge": "El objetivo era ofrecer una forma sencilla de tener una visión general de los gastos y las deudas sin depender de varias herramientas ni de un seguimiento manual.",
+        "solution": "Se diseñó una aplicación móvil centrada en el control de gastos y la gestión de deudas para registrar y organizar la información financiera en un solo lugar.",
+        "contribution": "Desarrollo de la aplicación móvil, con enfoque en frontend, backend y lógica de la aplicación.",
+        "features": [
+          "Control de gastos",
+          "Seguimiento de deudas",
+          "Seguimiento del dinero prestado o adeudado",
+          "Gestión de finanzas personales"
+        ],
+        "result": "La aplicación no está desplegada como servicio de producción. Hay un APK listo que se está utilizando."
+      }
+    },
+    "images": { "hero": "", "screenshots": [] },
+    "links": { "live": null, "github": null, "figma": null }
+  },
+  {
+    "id": "lam-informatique",
+    "title": "LAM Informatique",
+    "featured": false,
+    "translations": {
+      "en": {
+        "title": "LAM Informatique",
+        "shortDescription": "An institutional website for a Dakar-based IT consulting, training and technical support company.",
+        "description": "LAM Informatique is an IT consulting and training company based in Dakar, Senegal. The project was to design and develop its institutional website to present its services, training, expertise and team, and help visitors get in touch.",
+        "category": "Corporate website",
+        "year": "",
+        "role": "Full-Stack Developer",
+        "status": "live",
+        "technologies": [
+          "Next.js",
+          "React",
+          "TypeScript",
+          "Tailwind CSS",
+          "Node.js / API integration",
+          "Figma"
+        ],
+        "challenge": "A large amount of information—including IT services, certifications, training programs, consulting offers and company information—needed to be organized into a clear, professional experience accessible to both technical and non-technical visitors.",
+        "solution": "I designed and developed a responsive corporate website that centralizes the company's services, training programs, methodology, team and contact information, using structured sections and reusable components.",
+        "contribution": "Full-stack development, including website design, frontend implementation, content structure and integration, and interactive features.",
+        "features": [
+          "Corporate website",
+          "IT services presentation",
+          "Training catalogue and detail pages",
+          "Consulting offers",
+          "Company and team presentation",
+          "Responsive design",
+          "Contact and project request sections",
+          "Structured content management"
+        ],
+        "result": "The website provides a centralized digital presence for LAM Informatique's consulting, training and expertise. It is publicly accessible and serves as the company's institutional website."
+      },
+      "fr": {
+        "title": "LAM Informatique",
+        "shortDescription": "Un site institutionnel pour une entreprise dakaroise de conseil informatique, de formation et de support technique.",
+        "description": "LAM Informatique est une entreprise de conseil et de formation informatique basée à Dakar, au Sénégal. Le projet consistait à concevoir et développer son site institutionnel pour présenter ses services, ses formations, son expertise et son équipe, et faciliter la prise de contact.",
+        "category": "Site institutionnel",
+        "year": "",
+        "role": "Développeur Full-Stack",
+        "status": "live",
+        "technologies": [
+          "Next.js",
+          "React",
+          "TypeScript",
+          "Tailwind CSS",
+          "Node.js / intégration API",
+          "Figma"
+        ],
+        "challenge": "Une grande quantité d'informations — services informatiques, certifications, formations, offres de conseil et informations sur l'entreprise — devait être organisée dans une expérience claire et professionnelle, accessible aux visiteurs techniques comme non techniques.",
+        "solution": "J'ai conçu et développé un site d'entreprise responsive centralisant les services, formations, la méthodologie, l'équipe et les contacts, avec des sections structurées et des composants réutilisables.",
+        "contribution": "Développement full-stack, comprenant la conception du site, l'implémentation frontend, la structuration et l'intégration du contenu ainsi que les éléments interactifs.",
+        "features": [
+          "Site institutionnel",
+          "Présentation des services informatiques",
+          "Catalogue et fiches de formation",
+          "Offres de conseil",
+          "Présentation de l'entreprise et de l'équipe",
+          "Design responsive",
+          "Sections de contact et de demande de projet",
+          "Gestion structurée du contenu"
+        ],
+        "result": "Le site offre une présence numérique centralisée aux activités de conseil, de formation et d'expertise de LAM Informatique. Il est accessible au public et sert de site institutionnel à l'entreprise."
+      },
+      "es": {
+        "title": "LAM Informatique",
+        "shortDescription": "Un sitio institucional para una empresa de Dakar de consultoría informática, formación y soporte técnico.",
+        "description": "LAM Informatique es una empresa de consultoría y formación informática con sede en Dakar, Senegal. El proyecto consistió en diseñar y desarrollar su sitio institucional para presentar sus servicios, formaciones, experiencia y equipo, y facilitar el contacto.",
+        "category": "Sitio corporativo",
+        "year": "",
+        "role": "Desarrollador Full-Stack",
+        "status": "live",
+        "technologies": [
+          "Next.js",
+          "React",
+          "TypeScript",
+          "Tailwind CSS",
+          "Node.js / integración de API",
+          "Figma"
+        ],
+        "challenge": "Había que organizar mucha información —servicios informáticos, certificaciones, programas de formación, consultoría e información de la empresa— en una experiencia clara y profesional, accesible para visitantes técnicos y no técnicos.",
+        "solution": "Diseñé y desarrollé un sitio corporativo adaptable que centraliza servicios, programas de formación, metodología, equipo y contacto, mediante secciones estructuradas y componentes reutilizables.",
+        "contribution": "Desarrollo full-stack, incluido el diseño del sitio, implementación frontend, estructuración e integración del contenido y funciones interactivas.",
+        "features": [
+          "Sitio corporativo",
+          "Presentación de servicios informáticos",
+          "Catálogo y detalles de formación",
+          "Ofertas de consultoría",
+          "Presentación de la empresa y el equipo",
+          "Diseño adaptable",
+          "Secciones de contacto y solicitud de proyectos",
+          "Gestión estructurada de contenido"
+        ],
+        "result": "El sitio ofrece una presencia digital centralizada para la consultoría, formación y experiencia de LAM Informatique. Está disponible públicamente y sirve como sitio institucional de la empresa."
+      }
+    },
+    "images": {
+      "hero": "/images/projects/screens/laminformatique/homepage.png",
+      "screenshots": []
+    },
+    "links": {
+      "live": "https://lam-informatique.com/",
+      "github": null,
+      "figma": null
+    }
+  }
+]

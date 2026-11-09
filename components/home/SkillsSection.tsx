@@ -1,4 +1,4 @@
- "use client";
+"use client";
 
 import Image from "next/image";
 import AboutBg from "./AboutBg";
@@ -14,14 +14,15 @@ function SkillsSection() {
       className="relative isolate flex min-h-screen w-full items-center overflow-hidden bg-white px-6 py-24 md:px-10 lg:px-20"
     >
       <AboutBg />
-      <div className="relative z-10 mx-auto w-full max-w-7xl">
+      <div className="relative z-10 mx-auto w-full max-w-400">
         <Reveal animation="fade-up">
           <div className="mx-auto max-w-2xl text-center">
             <p className="mb-3 text-sm font-semibold uppercase tracking-[0.3em] text-[#0368FD]">
               {t("skills.eyebrow")}
             </p>
             <h2 className="text-4xl font-bold tracking-tight text-black sm:text-5xl md:text-7xl">
-              {t("skills.title")} <span className="text-[#0368FD]">{t("skills.accent")}</span>
+              {t("skills.title")}{" "}
+              <span className="text-[#0368FD]">{t("skills.accent")}</span>
             </h2>
             <p className="mt-5 text-base leading-7 text-gray-600 sm:text-lg">
               {t("skills.description")}
@@ -29,7 +30,7 @@ function SkillsSection() {
           </div>
         </Reveal>
 
-        <div className="mx-auto mt-14 grid max-w-6xl grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
+        <div className="mx-auto mt-14 grid max-w-400 grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
           {technologies.map((technology, index) => (
             <Reveal
               key={technology.name}

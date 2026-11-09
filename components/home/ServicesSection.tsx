@@ -1,11 +1,6 @@
- "use client";
+"use client";
 
-import {
-  Code2,
-  Database,
-  Layers3,
-  Smartphone,
-} from "lucide-react";
+import { Code2, Database, Layers3, Smartphone } from "lucide-react";
 import Reveal from "../shared/Reveal";
 import { useTranslation } from "react-i18next";
 
@@ -39,10 +34,26 @@ const services = [
 export default function ServicesSection() {
   const { t } = useTranslation();
   const translatedServices = [
-    { ...services[0], title: t("services.web"), description: t("services.webText") },
-    { ...services[1], title: t("services.mobile"), description: t("services.mobileText") },
-    { ...services[2], title: t("services.api"), description: t("services.apiText") },
-    { ...services[3], title: t("services.ui"), description: t("services.uiText") },
+    {
+      ...services[0],
+      title: t("services.web"),
+      description: t("services.webText"),
+    },
+    {
+      ...services[1],
+      title: t("services.mobile"),
+      description: t("services.mobileText"),
+    },
+    {
+      ...services[2],
+      title: t("services.api"),
+      description: t("services.apiText"),
+    },
+    {
+      ...services[3],
+      title: t("services.ui"),
+      description: t("services.uiText"),
+    },
   ];
   return (
     <section
@@ -50,13 +61,14 @@ export default function ServicesSection() {
       className="relative isolate w-full overflow-hidden bg-white px-6 py-24 md:px-10 lg:px-20"
     >
       <div className="absolute inset-0 -z-10 bg-[url('/images/services/servicesBg.png')] bg-cover bg-center" />
-      <div className="relative z-10 mx-auto max-w-7xl">
+      <div className="relative z-10 mx-auto max-w-400">
         <Reveal animation="fade-right">
           <p className="mb-3 text-sm font-semibold uppercase tracking-[0.3em] text-[#0368FD]">
             {t("services.eyebrow")}
           </p>
           <h2 className="text-4xl font-bold tracking-tight text-black sm:text-5xl md:text-6xl">
-            {t("services.title")} <span className="text-[#0368FD]">{t("services.accent")}</span>
+            {t("services.title")}{" "}
+            <span className="text-[#0368FD]">{t("services.accent")}</span>
           </h2>
           <p className="mt-3 text-base text-gray-600 sm:text-lg">
             {t("services.description")}

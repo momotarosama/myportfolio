@@ -1,8 +1,8 @@
- "use client";
+"use client";
 
 import HeroBg from "./HeroBg";
 import Image from "next/image";
-import Button from "../shared/Button";
+import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import Reveal from "../shared/Reveal";
 import TechnologyMarquee from "./TechnologyMarquee";
@@ -14,9 +14,10 @@ function HeroSection() {
     <main
       className="relative isolate w-full flex min-h-screen overflow-hidden bg-white"
       style={{}}
+      id="home"
     >
       <HeroBg />
-      <div className="z-10 flex w-full flex-col items-center justify-center gap-5 px-4 pb-20 pt-24 text-center sm:gap-7 sm:px-6 sm:pb-24 md:flex-row md:justify-between md:gap-3 md:px-10 md:py-20 md:text-left lg:px-20">
+      <div className="z-10 mx-auto flex w-full max-w-400 flex-col items-center justify-center gap-5 px-4 pb-20 pt-24 text-center sm:gap-7 sm:px-6 sm:pb-24 md:flex-row md:justify-between md:gap-3 md:px-10 md:py-20 md:text-left lg:px-20">
         <div className="w-full max-w-4xl md:max-w-3xl md:flex-1">
           <Reveal animation="fade-right">
             <h1 className="text-5xl font-bold tracking-tight text-black sm:text-6xl md:text-8xl">
@@ -34,23 +35,21 @@ function HeroSection() {
             </p>
 
             <div className="mt-7 flex flex-wrap justify-center gap-4 text-base text-black sm:gap-5 sm:text-lg md:justify-start md:text-xl">
-              <Button
-                color="blue"
-                className="rounded-full"
-                rightIcon={<ArrowRight size={16} />}
-                rounded
+              <Link
+                href="/#projects"
+                className="inline-flex cursor-pointer items-center justify-center gap-2 rounded-full bg-[#0368FD] px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-[#0257d6] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#0368FD] focus-visible:ring-offset-2 sm:text-base md:text-lg"
               >
                 {t("hero.work")}
-              </Button>
+                <ArrowRight size={16} aria-hidden="true" />
+              </Link>
 
-              <Button
-                color="bgless"
-                className="rounded-full"
-                rightIcon={<ArrowRight size={16} />}
-                rounded
+              <Link
+                href="/#contact"
+                className="inline-flex cursor-pointer items-center justify-center gap-2 rounded-full border border-gray-300 bg-transparent px-6 py-3 text-sm font-medium text-black transition-colors hover:bg-gray-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-400 focus-visible:ring-offset-2 sm:text-base md:text-lg"
               >
                 {t("hero.talk")}
-              </Button>
+                <ArrowRight size={16} aria-hidden="true" />
+              </Link>
             </div>
           </Reveal>
         </div>
