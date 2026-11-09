@@ -215,7 +215,7 @@ export default function Header() {
                       role="option"
                       aria-selected={currentLanguage === language}
                       onClick={() => changeLanguage(language)}
-                      className={`block w-full rounded-md px-3 py-2 text-left text-sm font-semibold transition-colors ${
+                      className={`block w-full rounded-md px-3 py-2 text-left text-sm font-semibold transition-colors cursor-pointer ${
                         currentLanguage === language
                           ? "bg-blue-50 text-[#0368FD]"
                           : "text-gray-700 hover:bg-gray-50"
@@ -251,35 +251,27 @@ export default function Header() {
 
           {/* MENU */}
           <Reveal animation="fade-right">
-            <aside className="relative h-screen w-[min(82%,20rem)] max-w-sm bg-white px-6 py-8 text-black sm:px-8">
-              {/* MENU HEADER */}
-              <div className="flex items-center justify-between">
-                <Link
-                  href="/"
-                  onClick={closeMenu}
-                  className="text-xl font-medium tracking-[0.15em]"
-                >
-                  <Image
-                    src="/darkLogo.svg"
-                    alt="Logo"
-                    width={70}
-                    height={70}
-                    className={`h-auto w-auto `}
-                  />
-                </Link>
+            <aside className="relative flex h-dvh w-[min(82%,20rem)] max-w-sm flex-col bg-white px-6 py-6 text-black sm:px-8">
+              <button
+                type="button"
+                onClick={closeMenu}
+                className="absolute right-4 top-4 flex h-10 w-10 items-center justify-center text-2xl font-light"
+                aria-label={t("nav.close")}
+              >
+                ×
+              </button>
 
-                {/* CLOSE */}
-                <button
-                  type="button"
-                  onClick={closeMenu}
-                  className="flex h-10 w-10 items-center justify-center text-2xl font-light"
-                  aria-label={t("nav.close")}
-                >
-                  ×
-                </button>
-              </div>
+              <Link href="/" onClick={closeMenu} className=" mt-8 block">
+                <Image
+                  src="/darkLogo.svg"
+                  alt="Techyouverymuch"
+                  width={200}
+                  height={80}
+                  className="h-auto w-55 "
+                  priority
+                />
+              </Link>
 
-              {/* LINKS */}
               <nav className="mt-10 flex flex-col gap-8">
                 <Link
                   href="/#home"
@@ -321,6 +313,33 @@ export default function Header() {
                   {t("nav.contact")}
                 </Link>
               </nav>
+
+              <div className="mt-auto border-t border-gray-200 pt-6">
+                <p className="mb-3 text-xs font-semibold uppercase tracking-wider text-gray-500">
+                  {t("nav.languageLabel")}
+                </p>
+                <div
+                  role="group"
+                  aria-label={t("nav.languageLabel")}
+                  className="flex gap-2"
+                >
+                  {(["fr", "en", "es"] as const).map((language) => (
+                    <button
+                      key={language}
+                      type="button"
+                      aria-pressed={currentLanguage === language}
+                      onClick={() => changeLanguage(language)}
+                      className={`rounded-lg px-4 py-2 text-sm font-semibold transition-colors cursor-pointer ${
+                        currentLanguage === language
+                          ? "bg-blue-50 text-[#0368FD]"
+                          : "text-gray-700 hover:bg-gray-100"
+                      }`}
+                    >
+                      {language.toUpperCase()}
+                    </button>
+                  ))}
+                </div>
+              </div>
             </aside>
           </Reveal>
         </div>
