@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { ArrowRight, ExternalLink } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import { getProjectImages } from "@/lib/projects";
 import type { LocalizedProject } from "@/types/project";
 import ProjectImageViewer from "./ProjectImageViewer";
@@ -12,6 +13,7 @@ export default function ProjectCard({
   project: LocalizedProject;
   index?: number;
 }) {
+  const { t } = useTranslation();
   const gradients = [
     "from-blue-600 to-blue-400",
     "from-sky-400 to-blue-300",
@@ -84,7 +86,7 @@ export default function ProjectCard({
           href={`/projects/${project.id}`}
           className="mt-6 flex items-center gap-2 border-t border-gray-100 pt-5 text-sm font-semibold text-black transition-colors hover:text-[#0368FD]"
         >
-          View case study <ExternalLink size={16} />
+          {t("projects.caseStudy")} <ExternalLink size={16} />
         </Link>
       </div>
     </article>
