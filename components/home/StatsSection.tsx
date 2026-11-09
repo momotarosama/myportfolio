@@ -82,7 +82,7 @@ export default function StatsSection() {
       aria-label={t("stats.aria")}
       className="w-full border-y border-gray-100 bg-white px-6 py-12 md:px-10 lg:px-20"
     >
-      <div className="mx-auto grid max-w-7xl grid-cols-2 divide-x divide-y divide-gray-200 md:grid-cols-4 md:divide-y-0">
+      <div className="mx-auto grid max-w-400 grid-cols-2 divide-x divide-y divide-gray-200 md:grid-cols-4 md:divide-y-0">
         {stats.map((stat) => (
           <div
             key={stat.label}

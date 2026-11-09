@@ -12,6 +12,7 @@ export default function Header() {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   const [languageOpen, setLanguageOpen] = useState(false);
+  const [activeSection, setActiveSection] = useState("home");
   const languageMenuRef = useRef<HTMLDivElement>(null);
   const { t, i18n } = useTranslation();
 
@@ -38,6 +39,44 @@ export default function Header() {
 
     return () => {
       window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  useEffect(() => {
+    const sectionIds = ["home", "about", "projects", "services", "contact"];
+    const sections = sectionIds
+      .map((id) => document.getElementById(id))
+      .filter((section): section is HTMLElement => section !== null);
+
+    const updateFromHash = () => {
+      const hash = window.location.hash.slice(1);
+
+      if (sectionIds.includes(hash)) {
+        setActiveSection(hash);
+      }
+    };
+
+    updateFromHash();
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        const visibleSections = entries
+          .filter((entry) => entry.isIntersecting)
+          .sort((a, b) => b.intersectionRatio - a.intersectionRatio);
+
+        if (visibleSections[0]) {
+          setActiveSection(visibleSections[0].target.id);
+        }
+      },
+      { rootMargin: "-35% 0px -55% 0px", threshold: [0, 0.25, 0.5, 0.75, 1] },
+    );
+
+    sections.forEach((section) => observer.observe(section));
+    window.addEventListener("hashchange", updateFromHash);
+
+    return () => {
+      observer.disconnect();
+      window.removeEventListener("hashchange", updateFromHash);
     };
   }, []);
 
@@ -79,6 +118,13 @@ export default function Header() {
     setMenuOpen(false);
   };
 
+  const navLinkClass = (section: string, mobile = false) =>
+    `${mobile ? "text-lg" : "text-sm"} transition-colors ${
+      activeSection === section
+        ? "font-semibold text-[#0368FD]"
+        : "text-black hover:text-[#0368FD]"
+    }`;
+
   return (
     <>
       {/* HEADER */}
@@ -89,7 +135,7 @@ export default function Header() {
             : "bg-transparent text-black"
         }`}
       >
-        <div className="mx-auto flex h-20 max-w-8xl items-center justify-between px-4 sm:px-6 md:px-10 lg:px-20">
+        <div className="mx-auto flex h-20 max-w-400 items-center justify-between px-4 sm:px-6 md:px-10 lg:px-20">
           {/* LOGO */}
           <Link
             href="/"
@@ -107,38 +153,23 @@ export default function Header() {
 
           {/* DESKTOP NAV */}
           <nav className="hidden items-center gap-8 md:flex absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%]">
-            <Link
-              href="/"
-              className="text-sm transition-opacity hover:opacity-60"
-            >
+            <Link href="/#home" className={navLinkClass("home")}>
               {t("nav.home")}
             </Link>
 
-            <Link
-              href="/#about"
-              className="text-sm transition-opacity hover:opacity-60"
-            >
+            <Link href="/#about" className={navLinkClass("about")}>
               {t("nav.about")}
             </Link>
 
-            <Link
-              href="/#projects"
-              className="text-sm transition-opacity hover:opacity-60"
-            >
+            <Link href="/#projects" className={navLinkClass("projects")}>
               {t("nav.projects")}
             </Link>
 
-            <Link
-              href="/#services"
-              className="text-sm transition-opacity hover:opacity-60"
-            >
+            <Link href="/#services" className={navLinkClass("services")}>
               {t("nav.services")}
             </Link>
 
-            <Link
-              href="/#contact"
-              className="text-sm transition-opacity hover:opacity-60"
-            >
+            <Link href="/#contact" className={navLinkClass("contact")}>
               {t("nav.contact")}
             </Link>
           </nav>
@@ -251,41 +282,41 @@ export default function Header() {
               {/* LINKS */}
               <nav className="mt-10 flex flex-col gap-8">
                 <Link
-                  href="/"
+                  href="/#home"
                   onClick={closeMenu}
-                  className="text-lg font-light"
+                  className={navLinkClass("home", true)}
                 >
                   {t("nav.home")}
                 </Link>
 
                 <Link
-                  href="/#story"
+                  href="/#about"
                   onClick={closeMenu}
-                  className="text-lg font-light"
+                  className={navLinkClass("about", true)}
                 >
                   {t("nav.about")}
                 </Link>
 
                 <Link
-                  href="/#events"
+                  href="/#projects"
                   onClick={closeMenu}
-                  className="text-lg font-light"
+                  className={navLinkClass("projects", true)}
                 >
                   {t("nav.projects")}
                 </Link>
 
                 <Link
-                  href="/#rsvp"
+                  href="/#services"
                   onClick={closeMenu}
-                  className="text-lg font-light"
+                  className={navLinkClass("services", true)}
                 >
                   {t("nav.services")}
                 </Link>
 
                 <Link
-                  href="/gallery"
+                  href="/#contact"
                   onClick={closeMenu}
-                  className="text-lg font-light"
+                  className={navLinkClass("contact", true)}
                 >
                   {t("nav.contact")}
                 </Link>

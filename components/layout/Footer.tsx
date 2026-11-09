@@ -28,7 +28,7 @@ export default function Footer() {
 
   return (
     <footer className="bg-[#111214] px-6 py-14 text-white sm:px-10 lg:px-20">
-      <div className="mx-auto max-w-7xl">
+      <div className="mx-auto max-w-400">
         <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-[1.4fr_1fr_1fr_1.15fr] lg:gap-16">
           <div>
             <Link href="/" aria-label="Techyouverymuch - accueil">

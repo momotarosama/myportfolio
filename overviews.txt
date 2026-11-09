@@ -1,0 +1,296 @@
+AfriSchool
+Overview
+
+AfriSchool is a school management platform designed to bring together the different aspects of school life in a single application. The platform aims to centralize academic management, timetables, grades, school life and a dedicated social network for the school community.
+
+Challenge
+
+The main challenge was to bring together a large number of school-related features into a single application while keeping the experience coherent and easy to use. The project covers a broad scope, from academic management to social interactions between members of the school community.
+
+Solution
+
+We designed a unified school management platform capable of centralizing the different aspects of school life. The frontend was built around the different use cases of students, teachers and the school administration.
+
+My Role
+
+I worked primarily as a Frontend Developer and UX/UI Designer. Since the backend architecture and technical decisions were still being defined, I worked with fictional data to develop and validate the frontend experience and the different user interfaces.
+
+Technologies
+
+React, Tailwind CSS
+
+Key Features
+- School management
+- Timetable management
+- Grade management
+- School life management
+- School social network
+Result / Current Status
+
+The project is still under development. My frontend and UX/UI work is currently available to showcase through screenshots.
+Casdak Voyage
+Overview
+
+Casdak Voyage is an interactive website developed for a travel agency. The platform is designed not only to present the agency's services, but also to allow visitors to submit reservation requests for tickets and organized trips.
+
+Challenge
+
+The main challenge was to transform the agency's services and reservation process into a clear digital experience. The project also required handling the frontend, backend, database and user experience as part of a complete web solution.
+
+Solution
+
+We built an interactive website that presents the agency's different services while allowing visitors to submit reservation requests for tickets and organized trips.
+
+My Role
+
+I worked as a Full-Stack Developer and UX/UI Designer. I was responsible for the frontend, backend, database structure and user experience.
+
+Technologies
+
+Next.js, React, TypeScript, PostgreSQL
+
+Key Features
+- Travel agency service presentation
+- Ticket reservation requests
+- Organized trip reservation requests
+- Interactive user experience
+Result / Current Status
+
+The project is technically ready for deployment but has not yet been deployed publicly. It is currently awaiting approval from the company.
+E-Menu
+Overview
+
+E-Menu is a restaurant management platform designed to centralize the main operations of a restaurant in a single application. The platform covers reservations, tables, orders, receipts, customers and online ordering. A mobile application was also planned as part of the project.
+
+Challenge
+
+The challenge was to bring together the different operational aspects of restaurant management into a single platform while keeping the interface simple and practical for restaurant staff.
+
+Solution
+
+We designed and developed a centralized restaurant management interface covering the different stages of restaurant operations, from reservations and table management to orders, customers and online ordering.
+
+My Role
+
+I worked as a Full-Stack Developer, with a stronger focus on frontend development. I also handled the UX/UI design of the platform. My frontend work was completed, while the backend was handled separately and did not progress far enough to complete the product.
+
+Technologies
+
+React, TypeScript, Tailwind CSS
+
+Key Features
+- Reservation management
+- Table management
+- Order management
+- Receipt management
+- Customer management
+- Online ordering
+Result / Current Status
+
+The project was eventually discontinued. The frontend and UX/UI work were completed and operational, but the backend was not completed, preventing the full product from being launched.
+GECA
+Overview
+
+GECA, short for Gestion Électronique du Courrier Administratif, is a project focused on digitizing and streamlining the management of administrative correspondence. The concept was designed with public administration in mind, particularly the Senegalese administration.
+
+Challenge
+
+Administrative correspondence can still involve numerous manual steps, physical document transfers and waiting periods between different departments. This makes the process slower, harder to track and more difficult to organize efficiently.
+
+Solution
+
+The project aims to provide a centralized digital workflow for managing administrative correspondence. The idea is to make it easier to register, transfer, track and process official documents while reducing the dependency on manual processes.
+
+My Role
+
+My role was focused on UX/UI design. I worked on the concept and interface design, but I did not have the opportunity to develop the application.
+
+Technologies
+
+UX/UI Design / Figma
+
+Key Features
+- Administrative mail management
+- Digital document workflow
+- Centralized correspondence
+- Document tracking
+- Administrative process management
+Result / Current Status
+
+The project was never developed into a finished application. The UX/UI design is still in progress. The original idea was to develop the concept further and potentially present it to the Senegalese administration.
+KAIJAI
+Overview
+
+KAIJAI is a marketplace concept designed to combine social content, online selling and live commerce into a single platform. The product is planned as both a mobile and web application, with an experience inspired by the social interaction of platforms such as TikTok and the marketplace model of platforms such as Vinted.
+
+Challenge
+
+The main challenge is to combine social content, peer-to-peer commerce and live selling into one coherent experience. The platform needs to make discovering, presenting and selling products feel natural while keeping the user experience simple.
+
+Solution
+
+The current work focuses on designing a marketplace experience where users can discover products, sell online and participate in live selling sessions. The project is currently being explored through UX/UI design and prototyping.
+
+My Role
+
+My role is currently focused on UX/UI design and product prototyping. The project is confidential and is still at the prototype stage.
+
+Technologies
+
+Figma / UX/UI Prototyping
+
+Key Features
+- Online marketplace
+- Product listings
+- Live selling
+- Social content
+- Mobile experience
+- Web experience
+Result / Current Status
+
+The project is currently in the UX/UI and prototyping phase. Development has not yet started.
+KPAGO
+Overview
+
+KPAGO is an e-commerce website focused on the sale of fresh products from Africa, as well as ready-to-eat and frozen food products. The project was developed during my time at Value Market.
+
+Challenge
+
+The project required creating a complete e-commerce experience capable of presenting a catalogue of fresh and food products online. At the time of development, the backend infrastructure and production environment were not yet in place.
+
+Solution
+
+I developed a complete frontend e-commerce experience using Next.js, with fictional data used to simulate the product catalogue and shopping experience.
+
+My Role
+
+I worked primarily on the frontend development and user interface. I was responsible for building the frontend experience and implementing the different interfaces required for the e-commerce platform.
+
+Technologies
+
+Next.js
+
+Key Features
+- Product catalogue
+- E-commerce interface
+- Fresh food products
+- Ready-to-eat products
+- Frozen products
+Result / Current Status
+
+The frontend prototype is online and can be presented, but the project does not currently have a production backend, server infrastructure or dedicated domain. The project was not completed before the end of my contract.
+https://kpago-test.vercel.app/
+
+
+Rouguy Wedding
+Overview
+
+Rouguy Wedding is a wedding website created to present the event and provide guests with the essential information about the wedding. The website also includes a backend component allowing guests to submit their RSVP.
+
+Challenge
+
+The goal was to create a dedicated website that could communicate the details of the wedding while providing a simple and accessible way for guests to confirm their attendance.
+
+Solution
+
+I created a responsive wedding website combining event presentation with an RSVP system connected to a custom backend.
+
+My Role
+
+I handled the UX/UI design as well as the frontend and backend development of the website.
+
+Technologies
+
+Next.js, Tailwind CSS, Node.js, Express, TypeScript
+
+Key Features
+- Wedding event presentation
+- Responsive website
+- RSVP system
+- Guest response management
+- Custom backend
+Result / Current Status
+
+The website was completed and used as the digital presentation and RSVP platform for the wedding.
+https://mr-mrs-kebe.vercel.app/ ; https://github.com/momotarosama/wedding-rouguy
+
+Traxpense
+Overview
+
+Traxpense is a personal finance management application designed to help users track their expenses and manage their debts. The application allows users to keep track of both money they owe to others and money owed to them.
+
+Challenge
+
+The goal was to provide a simple way for users to maintain an overview of their personal expenses and debts without relying on multiple tools or manual tracking.
+
+Solution
+
+We designed a mobile application centered around expense tracking and debt management, allowing users to record and organize their financial information in one place.
+
+My Role
+
+I worked on the mobile application development, focusing on the frontend, the backend and application logic.
+
+Technologies
+
+React Native, TypeScript, local database/storage
+
+Key Features
+- Expense tracking
+- Debt tracking
+- Money owed tracking
+- Personal finance management
+Result / Current Status
+
+The project is not currently deployed as a production application but an apk is ready for use and is being used.
+
+LAM INFORMATIQUE
+Overview
+
+LAM Informatique is an IT consulting and training company based in Dakar, Senegal, providing technology consulting, professional training and technical support in areas such as Cloud Computing, DevOps, cybersecurity, networking and software engineering.
+
+The project consisted of designing and developing the company's institutional website to present its services, training programs, expertise and team, while providing visitors with a clear way to discover the company's offers and get in touch.
+
+Challenge
+
+The main challenge was to structure a large amount of information — IT services, certifications, training programs, consulting offers and company information — into a clear and professional digital experience.
+
+The website also needed to communicate LAM Informatique's technical positioning while remaining accessible to visitors who may not have a strong technical background.
+
+Solution
+
+I designed and developed a responsive corporate website that centralizes LAM Informatique's services, training programs, methodology, team and contact information.
+
+The website uses structured sections and reusable components to present the company's different offers while maintaining a consistent user experience across the platform.
+
+My Role
+
+I worked as a Full-Stack Developer, contributing to the design and development of the website. My responsibilities included implementing the frontend, structuring the different sections of the website, integrating the content and building the interactive elements required for the platform.
+
+Technologies
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Node.js / API integration
+- Figma
+Key Features
+- Corporate website
+- IT services presentation
+- Training catalogue
+- Training detail pages
+- Consulting offers
+- Company presentation
+- Team presentation
+- Responsive design
+- Contact and project request sections
+- Structured content management
+Result
+
+The website provides LAM Informatique with a centralized digital presence for presenting its IT consulting and training activities. It brings together the company's services, training catalogue, expertise and contact channels in a single professional platform. LAM Informatique
+
+Current Status
+
+The website is publicly accessible and currently serv,
+es as the company's institutional website.
+https://lam-informatique.com/
