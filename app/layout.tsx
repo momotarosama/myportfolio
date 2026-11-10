@@ -25,6 +25,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.techyouverymuch.com"),
   title: "Techyouverymuch | Full-Stack Web & Mobile Development",
   description:
     "Techyouverymuch is a digital development studio focused on creating modern web and mobile solutions, combining thoughtful design, solid engineering and a product-focused approach.",

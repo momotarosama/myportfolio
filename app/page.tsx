@@ -12,13 +12,13 @@ export const metadata: Metadata = {
   description:
     "Techyouverymuch is a digital development studio focused on creating modern web and mobile solutions, combining thoughtful design, solid engineering and a product-focused approach.",
   alternates: {
-    canonical: "https://techyouverymuch.com/",
+    canonical: "https://www.techyouverymuch.com/",
   },
   openGraph: {
     title: "Techyouverymuch | Web & Mobile Development",
     description:
       "Techyouverymuch is a digital development studio focused on creating modern web and mobile solutions, combining thoughtful design, solid engineering and a product-focused approach.",
-    url: "https://techyouverymuch.com/",
+    url: "https://www.techyouverymuch.com/",
     siteName: "Techyouverymuch",
     type: "website",
     images: [

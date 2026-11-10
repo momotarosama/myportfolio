@@ -14,7 +14,7 @@ export function generateStaticParams() {
   return projects.map((project) => ({ id: project.id }));
 }
 
-const BASE_URL = "https://techyouverymuch.com";
+const BASE_URL = "https://www.techyouverymuch.com";
 
 export async function generateMetadata({
   params,
