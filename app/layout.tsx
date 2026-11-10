@@ -25,9 +25,9 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Techyouverymuch | Building with passion. Delivering with purpose.",
+  title: "Techyouverymuch | Full-Stack Web & Mobile Development",
   description:
-    "Techyouverymuch is a software development company that specializes in building high-quality web and mobile applications. We are passionate about technology and committed to delivering exceptional solutions that meet our clients' needs.",
+    "Techyouverymuch is a digital development studio focused on creating modern web and mobile solutions, combining thoughtful design, solid engineering and a product-focused approach.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

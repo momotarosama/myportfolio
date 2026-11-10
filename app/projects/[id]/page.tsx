@@ -2,7 +2,11 @@ import type { Metadata } from "next";
 import { Suspense } from "react";
 import { notFound } from "next/navigation";
 import ProjectDetails from "@/components/projects/ProjectDetails";
-import { getProjectById, projects } from "@/lib/projects";
+import {
+  getProjectById,
+  getProjectTranslation,
+  projects,
+} from "@/lib/projects";
 
 type ProjectPageProps = { params: Promise<{ id: string }> };
 
@@ -10,10 +14,55 @@ export function generateStaticParams() {
   return projects.map((project) => ({ id: project.id }));
 }
 
-export async function generateMetadata({ params }: { params: Promise<{ id: string }> }): Promise<Metadata> {
+const BASE_URL = "https://techyouverymuch.com";
+
+export async function generateMetadata({
+  params,
+}: ProjectPageProps): Promise<Metadata> {
   const { id } = await params;
   const project = getProjectById(id);
-  return { title: project ? `${project.id} | Projects` : "Project not found" };
+
+  if (!project) {
+    return {
+      title: "Project not found",
+      robots: {
+        index: false,
+        follow: false,
+      },
+    };
+  }
+
+  const localizedProject = getProjectTranslation(project, "fr");
+
+  const title = `${localizedProject.title} | Techyouverymuch`;
+  const description = localizedProject.description;
+  const canonicalUrl = `${BASE_URL}/projects/${project.id}`;
+
+  const image = project.images.hero
+    ? `${BASE_URL}${project.images.hero}`
+    : undefined;
+
+  return {
+    title,
+    description,
+    alternates: {
+      canonical: canonicalUrl,
+    },
+    openGraph: {
+      title,
+      description,
+      url: canonicalUrl,
+      siteName: "Techyouverymuch",
+      type: "article",
+      images: image ? [{ url: image }] : [],
+    },
+    twitter: {
+      card: image ? "summary_large_image" : "summary",
+      title,
+      description,
+      images: image ? [image] : [],
+    },
+  };
 }
 
 function ProjectDetailsFallback() {
